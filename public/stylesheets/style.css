@@ -1,0 +1,36 @@
+body {
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+/*	background: url(http://maxim061156.files.wordpress.com/2012/09/santaclaus15.jpg);
+	background-repeat: no repeat;*/
+	background-color: #3399FF;
+}
+
+form {
+	display: block;
+	text-align: left;
+	border-radius: 10px;
+	border: 4px black solid;
+	background-color: #999999;
+}
+
+#tweet_list {
+	display: inline-block;
+	text-align: left;
+	border-radius: 10px;
+	border: 4px black solid;
+	background-color: #999999;
+}
+
+#tweet_title {
+	display: block;
+	text-align: center;
+	border-bottom: 4px black solid;
+}
+
+#page_title{
+	text-align: center;
+}
+
+#tweets{
+	padding: 15px 15px 15px 15px;
+}

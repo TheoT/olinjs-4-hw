@@ -1,0 +1,10 @@
+extends layout
+block content
+	div(id='page_title')
+		h1 Crappy Twitter
+	div(class='tweet_input',name='#{user.username}')
+		form(method='post', action='/tweets/'+user.username,class="add_tweet")
+			h2 Compose a Tweet
+			input(name='new_tweet', id='tweet_text')
+			button(type='submit') Send Twit
+	include twits

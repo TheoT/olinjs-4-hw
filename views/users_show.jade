@@ -1,0 +1,8 @@
+extends layout
+
+block content
+	form(method='post', action='/users/new',id="add_user")
+		h2 Name
+		input(name='add_username',id="new_username") User Name
+		button(type='submit')
+			| Done

@@ -1,0 +1,8 @@
+div(id='tweet_list')
+	div(id='tweet_title')
+		h1 Look at all these tweets!
+	div(id='tweets')
+		each twit, i in twits
+			div(class='tweet') 
+				h3 OMG A TWIT by #{twit.author}
+				p #{twit.content}
